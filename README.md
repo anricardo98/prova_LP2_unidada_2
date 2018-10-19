@@ -14,7 +14,9 @@ O diretório ```sorting``` contém vários arquivos de um módulo de ordenação
 * ```randomize.py```: aleatoriza a ordem do conteúdo de ```rotulos.txt```, produzindo o arquivo ```rotulos.in```
 * ```sort.py```: ordena o conteúdo de ```rotulos.in```, produzindo o arquivo ```rotulos.out``` 
 
-No entanto, o arquivo ```rotulos.out``` não está sendo ordenado corretamente. Note que o rótulo Cinema e audiovisual (linha 38) antecede o rótulo Ciência da computação (linha 40).
+No entanto, o arquivo ```rotulos.out``` não está sendo ordenado corretamente. 
+
+*Note que o rótulo Cinema e audiovisual (linha 38) antecede o rótulo Ciência da computação (linha 40).*
 
 ## Limpeza de tweets (3,0pt)
 
@@ -45,7 +47,7 @@ Um elemento presente em determinado nível é composto por um código e um nome:
 - Área detalhada: código com 4 dígitos
 - Rótulo: código com 7 caracteres alfanuméricos
 
-* O código de cada nível inclui o código do seu pai. Ex: o código do rótulo **0614C01** Ciência da computação inclui o código da área detalhada **0614** Ciência da computação, que por sua vez inclui o código da área específica **061** Tecnologias da Informação e Comunicação (TIC), que por sua vez inclui o código da área geral **06** Tecnologias da Informação e Comunicação (TIC)*.
+*O código de cada nível inclui o código do seu pai. Ex: o código do rótulo **0614C01** Ciência da computação inclui o código da área detalhada **0614** Ciência da computação, que por sua vez inclui o código da área específica **061** Tecnologias da Informação e Comunicação (TIC), que por sua vez inclui o código da área geral **06** Tecnologias da Informação e Comunicação (TIC)*.
 
 No momento, o processamento da classificação está produzindo uma saída linear, o que atrapalha consideravelmente a interpretação hierárquica da classificação.
 
