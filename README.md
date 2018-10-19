@@ -42,10 +42,10 @@ O conteúdo do arquivo ```dataset.csv``` é uma listagem de rótulos da classifi
 Nesta classificação, há 4 níveis hierárquicos: área geral, específica, detalhada e rótulo. 
 
 Um elemento presente em determinado nível é composto por um código e um nome:
-- Área geral: código com 2 dígitos
-- Área específica: código com 3 dígitos
-- Área detalhada: código com 4 dígitos
-- Rótulo: código com 7 caracteres alfanuméricos
+1. Área geral: código com 2 dígitos
+2. Área específica: código com 3 dígitos
+3. Área detalhada: código com 4 dígitos
+4. Rótulo: código com 7 caracteres alfanuméricos
 
 *O código de cada nível inclui o código do seu pai. Ex: o código do rótulo **0614C01** Ciência da computação inclui o código da área detalhada **0614** Ciência da computação, que por sua vez inclui o código da área específica **061** Tecnologias da Informação e Comunicação (TIC), que por sua vez inclui o código da área geral **06** Tecnologias da Informação e Comunicação (TIC)*.
 
