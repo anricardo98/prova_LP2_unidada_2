@@ -47,7 +47,7 @@ Um elemento presente em determinado nível é composto por um código e um nome:
 3. Área detalhada: código com 4 dígitos
 4. Rótulo: código com 7 caracteres alfanuméricos
 
-*O código de cada nível inclui o código do seu pai. Ex: o código do rótulo* **0614C01** *Ciência da computação inclui o código da área detalhada* **0614** *Ciência da computação, que por sua vez inclui o código da área específica* **061** *Tecnologias da Informação e Comunicação (TIC), que por sua vez inclui o código da área geral ***06*** Tecnologias da Informação e Comunicação (TIC)*.
+*O código de cada nível inclui o código do seu pai. Ex: o código do rótulo* **0614C01** *Ciência da computação inclui o código da área detalhada* **0614** *Ciência da computação, que por sua vez inclui o código da área específica* **061** *Tecnologias da Informação e Comunicação (TIC), que por sua vez inclui o código da área geral* **06** *Tecnologias da Informação e Comunicação (TIC)*.
 
 No momento, o processamento da classificação está produzindo uma saída linear, o que atrapalha consideravelmente a interpretação hierárquica da classificação.
 
