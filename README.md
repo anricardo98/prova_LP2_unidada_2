@@ -1,3 +1,13 @@
+# Avaliação prática
+
+Esta avaliação compõe parcialmente a nota da 2a unidade da disciplina de Linguagem de programação II.
+
+Em empresas de programação reais, é comum receber listas de issues a resolver durante uma determinada semana.
+
+Esta avaliação simula essa situação. Abaixo estão listados 4 issues que você deve tentar resolver até terça-feira, 22/10/2018.
+
+Seu código deverá estar em um fork, que deve ser informado por email ao final do prazo estipulado.
+
 ## Erro de ordenação (2,0pt)
 
 O diretório ```sorting``` contém vários arquivos de um módulo de ordenação de textos:
