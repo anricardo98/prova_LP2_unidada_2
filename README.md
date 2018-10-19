@@ -6,7 +6,7 @@ Em empresas de programação reais, é comum receber listas de issues a resolver
 
 Esta avaliação simula essa situação. Abaixo estão listados 4 issues que você deve tentar resolver até terça-feira, 22/10/2018.
 
-Seu código deverá estar em um fork, que deve ser informado por email ao final do prazo estipulado.
+**Seu código deverá estar em um fork, que deve ser informado por email ao final do prazo estipulado.**
 
 ## Erro de ordenação (2,0pt)
 
@@ -15,6 +15,8 @@ O diretório ```sorting``` contém vários arquivos de um módulo de ordenação
 * ```sort.py```: ordena o conteúdo de ```rotulos.in```, produzindo o arquivo ```rotulos.out``` 
 
 No entanto, o arquivo ```rotulos.out``` não está sendo ordenado corretamente. 
+
+O script ```sort.py``` deverá ser corrigido para produzir o arquivo ```rotulos.out``` de forma correta.
 
 *Note que o rótulo Cinema e audiovisual (linha 38) antecede o rótulo Ciência da computação (linha 40).*
 
@@ -28,9 +30,9 @@ O diretório ```tweets``` contém vários arquivos de um módulo de processament
 
 O script ```process.py``` precisa ser expandido para filtrar apenas as mensagens com potencial de serem *fake news*. 
 
-Para isto, o script deverá capturar apenas os usuários originadores de tweets que contenham URLs que tenham sido retweetados.
+Para isto, o script deverá capturar apenas os usuários originadores de tweets que contenham URLs que tenham sido retweetados, persistidos no arquivo ```tweets.out``` usando sseparação por tabulação.
 
-*Note que estes tweets iniciam com a sigla RT, seguido do usuário que o originou*
+*Note que estes tweets iniciam com a sigla RT, seguido do usuário que o originou.*
 
 ## Classificação hierárquica (2,0pt se em arquivo; 3,0pt se gráfica; 4,0pt se interativa)
 
